@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- GANTI: [Nama] di title dan description -->
+  <title>[Nama] · QA / Test Engineer</title>
+  <meta name="description" content="Portofolio [Nama], QA / Test Engineer: pengalaman, cara kerja, dan karya.">
+  <meta name="theme-color" content="#ecebf3">
+  <link rel="preload" href="assets/fonts/gloock-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/hanken-grotesk-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.add('js')</script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <!--
+    PANDUAN EDIT
+    Semua teks yang bergaris bawah putus-putus pink (class="todo") adalah placeholder.
+    Ganti teksnya, lalu hapus class="todo" supaya garisnya hilang.
+  -->
+  <a class="skip" href="#konten">Langsung ke konten</a>
+
+  <header class="site-head">
+    <a class="mark" href="#top"><span class="todo">[Nama]</span></a>
+    <nav aria-label="Navigasi utama">
+      <ul>
+        <li><a href="#karya">Karya</a></li>
+        <li><a href="#tentang">Tentang</a></li>
+        <li><a href="assets/cv.pdf"><span class="todo">CV</span></a></li>
+        <li><a class="is-accent" href="#kontak">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="konten">
+    <!-- ============ DINDING PERTAMA ============ -->
+    <section class="hero" id="top" aria-labelledby="sapaan">
+      <div class="intro">
+        <h1 id="sapaan">Halo, saya <span class="todo">[Nama]</span>.</h1>
+        <p class="lede">QA / Test Engineer. Saya memastikan aplikasi bekerja seperti yang dijanjikan, dan sesekali membangun aplikasi sendiri.</p>
+        <div class="actions">
+          <a class="btn" href="#karya">Lihat karya</a>
+          <!-- GANTI: taruh file CV di assets/cv.pdf -->
+          <a class="link" href="assets/cv.pdf"><span class="todo">Unduh CV</span></a>
+        </div>
+      </div>
+
+      <div class="wall" id="karya" aria-label="Karya">
+        <h2 class="visually-hidden">Karya</h2>
+        <ol class="track" tabindex="0" aria-label="Dinding karya, geser ke samping">
+          <!-- KARYA 1 (asli) -->
+          <li class="piece">
+            <a class="frame" href="#helpdesk-pbj">
+              <img src="assets/img/helpdesk-pbj.webp" width="960" height="600"
+                   alt="Halaman Buat Tiket di aplikasi Helpdesk PBJ: formulir identitas pelapor dan detail kendala, dengan panel alur layanan di kanan.">
+            </a>
+            <div class="label">
+              <h3>Helpdesk PBJ</h3>
+              <p>Proyek pribadi · Laravel 13, Filament 4 · 2026</p>
+              <a href="#helpdesk-pbj">Baca catatan</a>
+            </div>
+          </li>
+          <!-- KARYA 2 (placeholder): ganti dengan contoh kerja QA, mis. test plan atau bug report yang boleh dipublikasikan -->
+          <li class="piece">
+            <a class="frame is-empty" href="#tentang">
+              <span class="todo">[Gambar karya QA]</span>
+            </a>
+            <div class="label">
+              <h3 class="todo">[Contoh kerja QA]</h3>
+              <p class="todo">[Mis. test plan, bug report, atau suite automation]</p>
+            </div>
+          </li>
+          <!-- KARYA 3 (placeholder) -->
+          <li class="piece">
+            <a class="frame is-empty" href="#tentang">
+              <span class="todo">[Gambar karya]</span>
+            </a>
+            <div class="label">
+              <h3 class="todo">[Proyek lain]</h3>
+              <p class="todo">[Satu kalimat tentang proyek]</p>
+            </div>
+          </li>
+        </ol>
+        <div class="wall-controls">
+          <button type="button" class="step" data-dir="-1" aria-label="Karya sebelumnya">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>
+          </button>
+          <p class="count" aria-live="polite"><span data-current>1</span> / <span data-total>3</span></p>
+          <button type="button" class="step" data-dir="1" aria-label="Karya berikutnya">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ TENTANG ============ -->
+    <section class="room" id="tentang" aria-labelledby="judul-tentang">
+      <h2 id="judul-tentang">Tentang saya</h2>
+      <div class="room-body">
+        <p class="big todo">[Dua sampai tiga kalimat tentang dirimu: sudah berapa lama di QA, di bidang apa, dan apa yang paling kamu sukai dari pekerjaan ini.]</p>
+
+        <h3>Cara saya bekerja</h3>
+        <dl class="ways">
+          <div><dt>Mulai dari risiko</dt><dd class="todo">[Bagaimana kamu menentukan apa yang perlu diuji lebih dulu.]</dd></div>
+          <div><dt>Bug yang bisa diulang</dt><dd class="todo">[Seperti apa laporan bug yang kamu tulis.]</dd></div>
+          <div><dt>Cek ulang sampai tuntas</dt><dd class="todo">[Bagaimana kamu memverifikasi perbaikan dan mencegah regresi.]</dd></div>
+        </dl>
+
+        <h3>Pengalaman</h3>
+        <ol class="timeline">
+          <li><span class="when todo">[2024 – sekarang]</span><span class="what"><b class="todo">[Peran]</b> · <span class="todo">[Perusahaan]</span></span></li>
+          <li><span class="when todo">[2022 – 2024]</span><span class="what"><b class="todo">[Peran]</b> · <span class="todo">[Perusahaan]</span></span></li>
+        </ol>
+
+        <h3>Alat yang biasa saya pakai</h3>
+        <p class="todo">[Mis. Postman, Playwright, Selenium, JIRA, SQL]</p>
+      </div>
+    </section>
+
+    <!-- ============ CATATAN KARYA: HELPDESK PBJ ============ -->
+    <section class="room note" id="helpdesk-pbj" aria-labelledby="judul-pbj">
+      <h2 id="judul-pbj">Helpdesk PBJ</h2>
+      <div class="room-body">
+        <p class="big">Proyek pribadi: aplikasi helpdesk untuk layanan pengadaan barang/jasa Pemerintah Kota Serang. Saya membangunnya sendiri dengan Laravel 13 dan Filament 4.</p>
+        <figure class="plate">
+          <img src="assets/img/helpdesk-pbj.webp" width="960" height="600" loading="lazy"
+               alt="Halaman Buat Tiket di aplikasi Helpdesk PBJ.">
+        </figure>
+        <dl class="facts">
+          <div><dt>Fitur</dt><dd>Pengguna membuat dan melacak tiket tanpa login; petugas menindaklanjuti lewat panel admin.</dd></div>
+          <div><dt>Pengujian</dt><dd>115 feature test otomatis.</dd></div>
+          <div><dt>Dokumentasi</dt><dd>PRD, technical design, runbook deployment, dan ADR.</dd></div>
+        </dl>
+        <h3>Ditemukan dan diperbaiki lewat pengujian</h3>
+        <ul class="found">
+          <li>Pelacakan publik menolak semua nomor tiket.</li>
+          <li>Unduh lampiran selalu gagal (error 500).</li>
+          <li>Hapus permanen selalu gagal.</li>
+          <li>Warna naik/turun di dashboard terbalik.</li>
+          <li>Tipe kolom notifikasi tidak cocok dengan data.</li>
+        </ul>
+        <p><a class="btn" href="https://pbj-helpdesk.vercel.app" target="_blank" rel="noopener">Buka demo<span class="visually-hidden"> (tab baru)</span></a></p>
+      </div>
+    </section>
+
+    <!-- ============ KONTAK ============ -->
+    <section class="close" id="kontak" aria-labelledby="judul-kontak">
+      <h2 id="judul-kontak">Mari ngobrol.</h2>
+      <p>Terbuka untuk peran QA dan proyek freelance.</p>
+      <ul class="contacts">
+        <!-- GANTI: alamat email dan link -->
+        <li><a class="btn" href="mailto:email@contoh.com"><span class="todo">[email@contoh.com]</span></a></li>
+        <li><a class="link" href="#"><span class="todo">[LinkedIn]</span></a></li>
+        <li><a class="link" href="assets/cv.pdf"><span class="todo">Unduh CV</span></a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-foot">
+    <p>© 2026 <span class="todo">[Nama]</span></p>
+  </footer>
+</body>
+</html>

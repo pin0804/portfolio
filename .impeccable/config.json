@@ -1,0 +1,17 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "repeating-stripes-gradient",
+        "value": "*",
+        "files": [
+          "styles.css"
+        ],
+        "createdAt": "2026-11-23T08:22:30.756Z",
+        "reason": "agent: stripes only mark empty placeholder frames (.frame.is-empty) that the owner replaces with real images"
+      }
+    ]
+  }
+}

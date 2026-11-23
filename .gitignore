@@ -1,0 +1,6 @@
+.DS_Store
+# folder sisa path yang salah ketik (kosong)
+”/
+# working files design tool, bukan bagian situs
+.impeccable/decision/
+.impeccable/hook.cache.json
