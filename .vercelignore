@@ -1,0 +1,4 @@
+.impeccable
+*.md
+assets/img/*.json
+.DS_Store

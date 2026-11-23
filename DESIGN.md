@@ -8,7 +8,7 @@ colors:
   ink: "#2b2236"
   soft: "#5f5470"
   rose: "#d98fa6"
-  rose-ink: "#a84f6c"
+  rose-ink: "#9c4562"
   hairline: "#d9d6e3"
   line-strong: "#c9c4d6"
 typography:
@@ -106,7 +106,7 @@ A near-monochrome plum and lilac palette with one dusty-rose voice for attention
 
 ### Secondary
 - **Dusty Rose** (rose): marks of attention only: the active/accent nav underline, link hover underline, the dashed placeholder underline, text selection. Never text on the wall (2.1:1) and never a surface fill.
-- **Deep Rose** (rose-ink): focus outline, link and nav hover text, and the hollow ring bullets of the findings list. Its contrast on the wall is 4.44:1, which falls just short of AA for small text, so hover text in it is a known defect. Don't extend it to resting text.
+- **Deep Rose** (rose-ink): focus outline, link and nav hover text, and the hollow ring bullets of the findings list. Its contrast on the wall is 5.16:1 (AA). Keep it for marks and hover states, not resting text.
 
 ### Neutral
 - **Lilac Wall** (wall): the page background and text on the plum button.

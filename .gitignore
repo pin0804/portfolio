@@ -4,3 +4,4 @@
 # working files design tool, bukan bagian situs
 .impeccable/decision/
 .impeccable/hook.cache.json
+.vercel
